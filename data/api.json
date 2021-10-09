@@ -1,0 +1,17 @@
+{
+  "target": {
+    "USD": {
+      "timestamp": "534446458",
+      "source": "EUR",
+      "date": "Mon 31 Aug 2021",
+      "rates": "1.18364"
+    },
+    "EUR": {
+      "timestamp": "65451564",
+      "source": "USD",
+      "date": "Mon 31 Aug 2021",
+      "rates": ".91554"
+    }
+  }
+  
+}

@@ -1,0 +1,70 @@
+extends layout
+
+
+block content
+
+    h1= title
+    h2= head
+    p
+        
+    form(action="/handler", method="GET", name="demo")
+        label(for="baseSource") Choose base currency:
+        select(name="baseSource", id="") 
+            each pair1 in source
+                option=pair1                               
+                                
+        p
+        
+        label(for="quoteTarget") Choose quote currency:
+        select(name="quoteTarget", id="") 
+            each pair2 in target
+                option=pair2
+
+               
+        input(type="submit", id="submit", value="Submit", name="submit")
+
+                
+                
+       
+
+    
+   
+   
+   
+
+
+    
+
+
+                                          
+        
+        
+        
+        
+        
+        
+
+        
+
+
+       
+
+        
+        
+
+
+
+        
+
+        
+        
+    
+
+        
+         
+    
+          
+                
+    
+        
+            

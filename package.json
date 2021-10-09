@@ -1,0 +1,29 @@
+{
+  "name": "express-app4",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "description": "ExpressApp4",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.0",
+    "cors": "^2.8.5",
+    "debug": "^2.2.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.14.0",
+    "express-router": "^0.0.1",
+    "express-validator": "^6.12.1",
+    "form-data": "^4.0.0",
+    "helmet": "^4.6.0",
+    "morgan": "^1.7.0",
+    "nodemon": "^2.0.13",
+    "pug": "^3.0.2",
+    "serve-favicon": "^2.3.0"
+  }
+}
